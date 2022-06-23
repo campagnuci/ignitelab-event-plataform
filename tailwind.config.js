@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        blur: 'url(/src/assets/background-blur.png)',
+        react: 'url(/src/assets/react-icon.svg)',
+      },
       fontFamily: {
         sans: 'Roboto, sans-serif',
       },
