@@ -1,4 +1,4 @@
-import { RocketseatLogo } from "./RocketseatLogo";
+import { RocketseatLogo } from './RocketseatLogo'
 
 export function Footer () {
   return (

@@ -1,8 +1,8 @@
 import '@vime/core/themes/default.css'
-import { DefaultUi, Player, Youtube } from "@vime/react";
-import { CaretRight, DiscordLogo, FileArrowDown, Image, Lightning } from "phosphor-react";
-import { useGetLessonBySlugQuery } from "../graphql/generated";
-import { Footer } from "./Footer";
+import { DefaultUi, Player, Youtube } from '@vime/react'
+import { CaretRight, DiscordLogo, FileArrowDown, Image, Lightning } from 'phosphor-react'
+import { useGetLessonBySlugQuery } from '../graphql/generated'
+import { Footer } from './Footer'
 
 interface VideoProps {
   lessonSlug: string
