@@ -4,7 +4,6 @@ import { CaretRight, DiscordLogo, FileArrowDown, Image, Lightning } from "phosph
 import { useGetLessonBySlugQuery } from "../graphql/generated";
 import { Footer } from "./Footer";
 
-
 interface VideoProps {
   lessonSlug: string
 }

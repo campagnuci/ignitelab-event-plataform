@@ -4,6 +4,8 @@ import { Footer } from '../components/Footer'
 import { Logo } from '../components/Logo'
 import { useCreateSubscriberMutation } from '../graphql/generated'
 
+import codeMockUpImage from '../assets/code-mockup.png';
+
 export function Subscribe () {
   const navigate = useNavigate()
   const [name, setName] = useState('')
@@ -59,7 +61,7 @@ export function Subscribe () {
             </form>
           </div>
         </div>
-        <img src="./src/assets/code-mockup.png" className="mt-10" alt="" />
+        <img src={codeMockUpImage} className="mt-10" alt="" />
       </div>
       <Footer />
     </div>
